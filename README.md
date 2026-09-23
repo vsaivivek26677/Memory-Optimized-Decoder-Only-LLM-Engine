@@ -32,6 +32,9 @@ Each variant adds exactly one modernization on top of the last, so its individua
 
 All five variants share the same parameter-matched backbone (`d_model=384`, 6 layers, 8 query heads) so differences in the results come from architecture, not model size.
 
+## Loss curves for all five ablation variants
+![Loss curves for all five ablation variants](training_loss.png)
+
 ## Pipeline overview
 
 ```
